@@ -9,14 +9,14 @@ h1 {
   color: #2e86de;
 }
 
- .container {
+.container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
   background-color: #fff;
   padding: 10px 90px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .info {
@@ -28,7 +28,7 @@ ul {
   line-height: 1.6;
 }
 
-.image img{
+.image img {
   height: auto;
   width: 200px;
   border-radius: 50%;
@@ -40,14 +40,15 @@ a:hover {
   text-decoration: underline;
 }
 
-
 table {
   border-collapse: collapse;
   width: 50%;
   margin: 20px auto;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid #999;
   padding: 8px;
   text-align: left;
@@ -73,6 +74,10 @@ a {
   table {
     width: 100%;
   }
+
+  .info {
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -82,6 +87,10 @@ a {
     padding: 20px;
   }
 
+  .info {
+    text-align: center;
+  }
+
   .image img {
     width: 150px;
     margin: 0 auto;
@@ -89,9 +98,7 @@ a {
 
   table {
     width: 100%;
+    overflow-x: auto;
+    display: block;
   }
 }
-
-
-
-
