@@ -58,5 +58,40 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .image img {
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  table {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .image img {
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  table {
+    width: 100%;
+  }
+}
+
+
 
 
